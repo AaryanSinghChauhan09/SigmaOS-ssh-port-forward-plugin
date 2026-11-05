@@ -1,0 +1,6 @@
+[component]
+name = "SigmaOS-ssh-port-forward-plugin"
+tier = 3
+description = "Secure SSH tunnel and port forwarding manager plugin inspired by Omarchy"
+contracts = ['ssh-port-forwarder', 'tunnel-manager', 'dynamic-socks-proxy']
+upstream_inspirations = ['https://github.com/omacom/omarchy-port-forward-plugin']
